@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinThread", "WinThread\WinT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinInterlock", "WinInterlock\WinInterlock.vcxproj", "{8E0E0717-B3A8-4E54-8ED5-25E7F61AD383}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinMutex", "WinMutex\WinMutex.vcxproj", "{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{8E0E0717-B3A8-4E54-8ED5-25E7F61AD383}.Release|x64.Build.0 = Release|x64
 		{8E0E0717-B3A8-4E54-8ED5-25E7F61AD383}.Release|x86.ActiveCfg = Release|Win32
 		{8E0E0717-B3A8-4E54-8ED5-25E7F61AD383}.Release|x86.Build.0 = Release|Win32
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Debug|x64.ActiveCfg = Debug|x64
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Debug|x64.Build.0 = Debug|x64
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Debug|x86.Build.0 = Debug|Win32
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Release|x64.ActiveCfg = Release|x64
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Release|x64.Build.0 = Release|x64
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Release|x86.ActiveCfg = Release|Win32
+		{72FC2574-77C1-4297-AA2A-07A0A3A6B9EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

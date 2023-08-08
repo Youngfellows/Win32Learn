@@ -9,7 +9,7 @@ DWORD CALLBACK ThreadProc1(LPVOID pParam)
 	for (int i = 0; i < 100000000; i++)
 	{
 		//g_value++;
-		InterlockedIncrement((unsigned long volatile*)&g_value);
+		InterlockedIncrement((unsigned long volatile*)&g_value);//原子锁函数
 	}
 	return 0;
 }
@@ -19,7 +19,7 @@ DWORD CALLBACK ThreadProc2(LPVOID pParam)
 	for (int i = 0; i < 100000000; i++)
 	{
 		//g_value++;
-		InterlockedIncrement((unsigned long volatile*)&g_value);
+		InterlockedIncrement((unsigned long volatile*)&g_value);//原子锁函数
 	}
 	return 0;
 }
