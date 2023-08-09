@@ -1,0 +1,1 @@
+python delete_multiple_directory.py
