@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinRes", "WinRes\WinRes.vcxproj", "{C57C661A-7146-45A6-B732-E872877750BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinPaint", "WinPaint\WinPaint.vcxproj", "{069BFDF5-DEB7-4DEA-9141-FD0E512C3B75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinText", "WinText\WinText.vcxproj", "{CB0916A9-DA31-4FF7-AED4-63A62E6C0A83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C57C661A-7146-45A6-B732-E872877750BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C57C661A-7146-45A6-B732-E872877750BC}.Debug|Win32.Build.0 = Debug|Win32
+		{C57C661A-7146-45A6-B732-E872877750BC}.Release|Win32.ActiveCfg = Release|Win32
+		{C57C661A-7146-45A6-B732-E872877750BC}.Release|Win32.Build.0 = Release|Win32
+		{069BFDF5-DEB7-4DEA-9141-FD0E512C3B75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{069BFDF5-DEB7-4DEA-9141-FD0E512C3B75}.Debug|Win32.Build.0 = Debug|Win32
+		{069BFDF5-DEB7-4DEA-9141-FD0E512C3B75}.Release|Win32.ActiveCfg = Release|Win32
+		{069BFDF5-DEB7-4DEA-9141-FD0E512C3B75}.Release|Win32.Build.0 = Release|Win32
+		{CB0916A9-DA31-4FF7-AED4-63A62E6C0A83}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB0916A9-DA31-4FF7-AED4-63A62E6C0A83}.Debug|Win32.Build.0 = Debug|Win32
+		{CB0916A9-DA31-4FF7-AED4-63A62E6C0A83}.Release|Win32.ActiveCfg = Release|Win32
+		{CB0916A9-DA31-4FF7-AED4-63A62E6C0A83}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
