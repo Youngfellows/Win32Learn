@@ -1,5 +1,6 @@
 
 #pragma comment( lib, "../Debug/Clib.lib" )
+#include<stdio.h>
 //通知链接器到哪抓源码
 int main(){
 	int sum, sub;
