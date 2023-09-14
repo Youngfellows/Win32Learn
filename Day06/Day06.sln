@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinThread", "WinThread\WinT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinInterlock", "WinInterlock\WinInterlock.vcxproj", "{AE1E404E-4282-4AB7-BD5F-13BE9B3D3485}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinMutex", "WinMutex\WinMutex.vcxproj", "{156553E7-78AC-420E-8DEB-FD00721150E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AE1E404E-4282-4AB7-BD5F-13BE9B3D3485}.Release|x64.Build.0 = Release|x64
 		{AE1E404E-4282-4AB7-BD5F-13BE9B3D3485}.Release|x86.ActiveCfg = Release|Win32
 		{AE1E404E-4282-4AB7-BD5F-13BE9B3D3485}.Release|x86.Build.0 = Release|Win32
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Debug|x64.ActiveCfg = Debug|x64
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Debug|x64.Build.0 = Debug|x64
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Debug|x86.Build.0 = Debug|Win32
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Release|x64.ActiveCfg = Release|x64
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Release|x64.Build.0 = Release|x64
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Release|x86.ActiveCfg = Release|Win32
+		{156553E7-78AC-420E-8DEB-FD00721150E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
