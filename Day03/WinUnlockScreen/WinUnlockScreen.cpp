@@ -75,7 +75,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msgID, WPARAM wParam, LPARAM lParam)
 		PostQuitMessage(0);
 		break;
 	case WM_CREATE:
-		SetTimer(hWnd, IDEVENT_VK_SCROLL, 2000, NULL);
+		SetTimer(hWnd, IDEVENT_VK_SCROLL, 5000, NULL);
 		break;
 	case WM_TIMER:
 		OnTimer(hWnd, wParam);
