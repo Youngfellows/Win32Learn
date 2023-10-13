@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinTimer", "WinTimer\WinTim
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinMenu", "WinMenu\WinMenu.vcxproj", "{1CBA1B9A-D17B-4A3D-A622-B3C8FE0963ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinUnlockScreen", "WinUnlockScreen\WinUnlockScreen.vcxproj", "{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{1CBA1B9A-D17B-4A3D-A622-B3C8FE0963ED}.Release|x64.Build.0 = Release|x64
 		{1CBA1B9A-D17B-4A3D-A622-B3C8FE0963ED}.Release|x86.ActiveCfg = Release|Win32
 		{1CBA1B9A-D17B-4A3D-A622-B3C8FE0963ED}.Release|x86.Build.0 = Release|Win32
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Debug|x64.ActiveCfg = Debug|x64
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Debug|x64.Build.0 = Debug|x64
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Debug|x86.ActiveCfg = Debug|Win32
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Debug|x86.Build.0 = Debug|Win32
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Release|x64.ActiveCfg = Release|x64
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Release|x64.Build.0 = Release|x64
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Release|x86.ActiveCfg = Release|Win32
+		{11F1BAF2-33BE-422E-B122-FCD9B4AE5B9E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
